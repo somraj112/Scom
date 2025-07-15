@@ -11,7 +11,7 @@ const Posts = () => {
   // State for current page number, starting from 1
   const [currentPage, setCurrentPage] = useState(1);
   // Number of posts to display per page
-  const postsPerPage = 10;
+  const postsPerPage = 12;
 
   // useEffect hook to fetch data when the component mounts
   useEffect(() => {
