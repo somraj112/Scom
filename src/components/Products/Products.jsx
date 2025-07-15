@@ -32,13 +32,12 @@ const Products = () => {
       <div className="flex items-center justify-between mt-auto">
         <p className="text-green-600 font-bold">Price: ${product.price}</p>
         <p className="text-yellow-600 font-semibold text-sm">
-          {product.rating}⭐
+          {product.rating} ⭐
         </p>
       </div>
     </div>
-  ))}
-</div>
-
+    ))}
+    </div>
   );
 };
 
