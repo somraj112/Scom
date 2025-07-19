@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Posts from './components/Posts/Posts'
 import Products from './components/Products/Products'
+import Recipes from './components/Recipes/Recipes'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/posts" element={<Posts />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/recipes" element={<Recipes />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
