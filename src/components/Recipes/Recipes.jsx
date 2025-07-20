@@ -26,7 +26,7 @@ const Recipes = () => {
     };
 
     fetchRecipes();
-  }, []);
+  }, [API_KEY]);
 
   const indexOfLast = currentPage * recipesPerPage;
   const indexOfFirst = indexOfLast - recipesPerPage;
